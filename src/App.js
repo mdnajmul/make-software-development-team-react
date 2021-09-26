@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import demo1 from './demo.jpeg'
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <img style={{width:'100px', height:'100px', borderRadius: '50%'}} src={demo1} alt=""/>
         <a
           className="App-link"
           href="https://reactjs.org"
