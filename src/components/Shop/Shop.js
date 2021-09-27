@@ -4,15 +4,18 @@ import Member from "../Member/Member";
 import "./Shop.css";
 
 const Shop = () => {
+  // set members & cart value by using useState method
   const [members, setMembers] = useState([]);
   const [cart, setCart] = useState([]);
 
+  // data load by using useEffect method
   useEffect(() => {
     fetch("./software-team.JSON")
       .then((res) => res.json())
       .then((data) => setMembers(data));
   }, []);
 
+  // write a onclick function
   const handleAddToCart = (member) => {
     if (!cart.includes(member)) {
       const newCart = [...cart, member];

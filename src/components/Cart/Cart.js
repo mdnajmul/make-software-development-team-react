@@ -4,11 +4,13 @@ import { faUser } from "@fortawesome/free-solid-svg-icons";
 import "./Cart.css";
 
 const Cart = (props) => {
-  console.log(props);
+  // destructuring cart value
   const { cart } = props;
+
   let quantity = props.cart.length;
   let total = 0;
 
+  // set total cost
   for (const member of cart) {
     total = total + member.salary;
   }

@@ -4,8 +4,9 @@ import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import "./Member.css";
 
 const Member = (props) => {
-  //   console.log(props);
+  // destructuring all members data
   const { name, country, designation, age, img, salary } = props.member;
+
   return (
     <div className="member">
       <div>
