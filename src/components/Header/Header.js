@@ -10,7 +10,7 @@ const Header = () => {
         make sure that you entrust your project to specialists who really
         understand you.
       </p>
-      <h1>Total Budget: 150 Million</h1>
+      <h1>Total Budget: $150 Million</h1>
     </div>
   );
 };

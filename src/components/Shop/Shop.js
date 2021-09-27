@@ -14,8 +14,12 @@ const Shop = () => {
   }, []);
 
   const handleAddToCart = (member) => {
-    const newCart = [...cart, member];
-    setCart(newCart);
+    if (!cart.includes(member)) {
+      const newCart = [...cart, member];
+      setCart(newCart);
+    } else {
+      alert("Already added!");
+    }
   };
 
   return (
