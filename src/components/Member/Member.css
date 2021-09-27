@@ -1,0 +1,43 @@
+.member {
+  background: rgb(236, 184, 210);
+  text-align: center;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.member img {
+  border-radius: 50%;
+}
+
+span {
+  color: blue;
+}
+
+.hire-me-btn {
+  padding: 5px;
+  width: 40%;
+  cursor: pointer;
+  background: orangered;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.icon {
+  font-size: 48px;
+}
+
+.fb-icon,
+.lind-icon {
+  cursor: pointer;
+}
+
+.fb-icon:hover,
+.lind-icon:hover {
+  color: blue;
+  background: white;
+}
+
+.lind-icon {
+  margin-left: 15px;
+}
