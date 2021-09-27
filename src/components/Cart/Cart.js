@@ -34,7 +34,7 @@ const Cart = (props) => {
           <p>{member.name}</p>
         </div>
       ))}
-      <button className="buyNow-btn">Buy Now</button>
+      <button className="buyNow-btn">Hire Now</button>
     </div>
   );
 };
