@@ -25,7 +25,10 @@ const Member = (props) => {
         <h3>
           <span>Salary:</span> ${salary}
         </h3>
-        <button className="hire-me-btn">
+        <button
+          onClick={() => props.handleAddToCart(props.member)}
+          className="hire-me-btn"
+        >
           <FontAwesomeIcon icon={faShoppingCart} /> Hire Me
         </button>
         <p>
